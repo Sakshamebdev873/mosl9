@@ -82,7 +82,7 @@ gsap.fromTo('.aboutt',
     stagger:0.15,
     scrollTrigger: {
       trigger: '.about',
-      markers: true, // Remove after testing
+      // markers: true, // Remove after testing
       scrub: true, 
       start: "top-=300 10%",  // Start when '.Work' is 80% in view
       end: "bottom-=150 10%" // End when '.Work' reaches 110% of the viewport
