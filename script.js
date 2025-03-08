@@ -116,7 +116,7 @@ gsap.fromTo('.about-img',
     stagger:0.15,
     scrollTrigger: {
       trigger: '.about',
-      markers: true, // Remove after testing
+      // markers: true, // Remove after testing
       scrub: true, 
       start: "top-=200 10%",  // Start when '.Work' is 80% in view
       end: "bottom+=50 10%" // End when '.Work' reaches 110% of the viewport
@@ -133,7 +133,7 @@ gsap.fromTo('.one',
     stagger:0.15,
     scrollTrigger: {
       trigger: '.about',
-      markers: true, // Remove after testing
+      // markers: true, // Remove after testing
       scrub: true, 
       start: "top-=200 10%",  // Start when '.Work' is 80% in view
       end: "bottom+=50 10%" // End when '.Work' reaches 110% of the viewport
@@ -150,7 +150,7 @@ gsap.fromTo('.two',
     stagger:0.15,
     scrollTrigger: {
       trigger: '.about',
-      markers: true, // Remove after testing
+      // markers: true, // Remove after testing
       scrub: true, 
       start: "top-=200 10%",  // Start when '.Work' is 80% in view
       end: "bottom+=50 10%" // End when '.Work' reaches 110% of the viewport
